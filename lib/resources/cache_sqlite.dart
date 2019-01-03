@@ -7,7 +7,10 @@ import 'package:path/path.dart';
 import '../models/item_model.dart';
 
 
-class NewsDbProvider {
+import 'repository.dart' show Cache, Source;
+
+
+class NewsDbProvider implements Source, Cache{
 
   static final NewsDbProvider _singleton = NewsDbProvider._internal();
 
