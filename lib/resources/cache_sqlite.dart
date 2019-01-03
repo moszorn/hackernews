@@ -87,3 +87,5 @@ class NewsDbProvider implements Source, Cache{
   }
 }
 
+
+final sqlite = NewsDbProvider();
